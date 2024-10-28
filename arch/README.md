@@ -1,6 +1,6 @@
 # My starship config for Arch following my HyprPanel theme
 
 Previews:
-![snapshot_2024-10-28_03-38-56](https://github.com/user-attachments/assets/0b4b526e-f14b-4a39-9d3f-eeefdb999d38)
+![image](https://github.com/user-attachments/assets/a8da289e-0f31-451f-922c-687c9f43033a)
 
-![snapshot_2024-10-28_03-41-18](https://github.com/user-attachments/assets/98390a20-c3a6-4842-8bb5-15380b449917)
+![image](https://github.com/user-attachments/assets/b938ca4e-b2a8-4fb0-852c-3508e55db179)
