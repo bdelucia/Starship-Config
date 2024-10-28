@@ -1,21 +1,21 @@
 #                                 
 format = """
-[](fg:#ffffff bg:#ffffff)\
-[󰣇](fg:#2F71DA bg:#ffffff)\
-[  ](fg:#242438 bg:#ffffff)\
+[](fg:#242438 bg:#242438)\
+[󰣇](fg:#2F71DA bg:#242438)\
+[  ](fg:#242438 bg:#242438)\
 $username\
-[](fg:#ffffff bg:#00FFFF)\
+[](fg:#242438 bg:#00FFFF)\
 $directory\
-[](fg:#00FFFF bg:#ffffff)\
+[](fg:#00FFFF bg:#242438)\
 $git_branch\
 $git_status\
-[](fg:#ffffff bg:#00ffff)\
+[](fg:#242438 bg:#00ffff)\
 [ ](fg:#00ffff)\
 """
 
 right_format = """
 [](fg:#00ffff)\
-[](fg:#ffffff bg:#00ffff)\
+[](fg:#242438 bg:#00ffff)\
 $time\
 $all
 $character
@@ -23,8 +23,8 @@ $character
 
 [username]
 show_always = true
-style_user = "fg:#242438 bg:#ffffff"
-style_root = "fg:#242438 bg:#ffffff"
+style_user = "fg:#F6F5F4 bg:#242438"
+style_root = "fg:#F6F5F4 bg:#242438"
 format = '[$user ]($style)'
 disabled = false
 
@@ -41,12 +41,12 @@ disabled = false
 
 [git_branch]
 symbol = ""
-style = "fg:#242438 bg:#ffffff"
+style = "fg:#F6F5F4 bg:#242438"
 format = '[ $symbol $branch ]($style)'
 disabled = false
 
 [git_status]
-style = "fg:#242438 bg:#ffffff"
+style = "fg:#F6F5F4 bg:#242438"
 format = '[$all_status$ahead_behind ]($style)'
 disabled = false
 
@@ -54,67 +54,67 @@ disabled = false
 
 [c]
 symbol = ""
-style = "fg:#242438 bg:#840a2c"
+style = "fg:#00FFFF bg:#840a2c"
 format = '[ $symbol ($version) ]($style)'
 disabled = false
 
 [kubernetes]
-style = "fg:#242438 bg:#326ce5"
+style = "fg:#00FFFF bg:#326ce5"
 format = '[ on ﴱ ($user on )($cluster in )$context \($namespace\) ]($style)'
 disabled = false
 
 [gcloud]
 symbol = " "
-style = "fg:#242438 bg:#0f9d58"
+style = "fg:#00FFFF bg:#0f9d58"
 format = '[ on $symbol $account(@$domain)(\($region\)) ]($style) '
 # format = '[ on $symbol account@company.iam.gserviceaccount.com(\($region\)) ]($style) ' # for testing purposes
 disabled = false
 
 [golang]
 symbol = ""
-style = "fg:#242438 bg:#007d9c"
+style = "fg:#00FFFF bg:#007d9c"
 format = '[ $symbol ($version) ]($style)'
 disabled = false
 
 [java]
 symbol = ""
-style = "fg:#242438 bg:#007396"
+style = "fg:#00FFFF bg:#007396"
 format = '[ $symbol ($version) ]($style)'
 disabled = false
 
 [lua]
 symbol = ""
-style = "fg:#242438 bg:#000080"
+style = "fg:#00FFFF bg:#000080"
 format = '[ $symbol ($version) ]($style)'
 disabled = false
 
 [nodejs]
 symbol = ""
-style = "fg:#242438 bg:#5fa04e"
+style = "fg:#00FFFF bg:#5fa04e"
 format = '[ $symbol ($version) ]($style)'
 disabled = false
 
 [package]
 symbol = ""
-style = "fg:#242438 bg:#cb3837"
+style = "fg:#00FFFF bg:#cb3837"
 format = '[ $symbol ($version) ]($style)'
 disabled = false
 
 [php]
 symbol = ''
-style = "fg:#242438 bg:#4F5B93"
+style = "fg:#00ffff bg:#4F5B93"
 format = '[ $symbol ($version) ]($style)'
 disabled = false
 
 [python]
 symbol = ''
-style = "fg:#242438 bg:#ffdf76"
+style = "fg:$00ffff bg:#ffdf76"
 format = '[ $symbol ($version) ]($style)'
 disabled = false
 
 [rust]
 symbol = ""
-style = "fg:#242438 bg:#a72145"
+style = "fg:#00ffff bg:#a72145"
 format = '[ $symbol ($version) ]($style)'
 disabled = false
 
@@ -123,7 +123,7 @@ disabled = false
 [time]
 disabled = false
 time_format = "%R" # Hour:Minute Format
-style = "fg:#242438 bg:#ffffff"
+style = "fg:#00ffff bg:#242438"
 format = '[  $time ]($style)'
 
 [cmd_duration]
